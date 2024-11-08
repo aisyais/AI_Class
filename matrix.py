@@ -5,7 +5,6 @@ A = [[2, 0, -3], [1, 4, 5]]
 B = [[3, 1], [-1, 0], [4, 2]]
 C = [[4, 7], [2, 1], [1, -1]]
 
-# Sesuai dengan yang disuruh oleh tugas, ini adalah bagian kode yg non library untuk perkalian matriks manual
 def matrix_multiply_manual(mat1, mat2):
     result = [[0 for _ in range(len(mat2[0]))] for _ in range(len(mat1))]
     for i in range(len(mat1)):
